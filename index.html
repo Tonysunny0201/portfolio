@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Playwrite+DE+Grund:wght@100..400&family=Playwrite+FR+Trad:wght@100..400&display=swap" rel="stylesheet">
+    <!-- Animate style cdn link -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- aos cdn link  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div id="container">
+    <!-- navbar -->
+     <nav>
+        <!-- logo -->
+         <img class="logo" src="./images/logo.png" alt="logo">
+         <!-- LINKS -->
+          <ul>
+            <li class="list-items"><a class="links" href="">HOME</a></li>
+            <li class="list-items"><a class="links" href="#about">ABOUT</a></li>
+            <li class="list-items"><a class="links" href="#skills">SKILLS</a></li>
+            <li class="list-items"><a class="links" href="#contacts">CONTACT</a></li>
+
+
+          </ul>
+     </nav>
+    <!-- home -->
+     <section id="home">
+        <div class="home-content">
+            <h1 class="animate__animated animate__jello" id="username">I'm Ana <span id="lname">Kite</span> </h1>
+            <p id="user-details">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit,
+                <br> veniam velit alias accusantium quos impedit dignissimos inventore.</p>
+                <a class="download" href="">DOWNLOAD CV</a>
+        </div>
+        <div class="home-img">
+            <!-- shape -->
+            <img id="shape" class="group1" src="./images/bg.png" alt="shape"> 
+            <img id="girl" class="group1" src="./images/p1.png" alt="girl ">
+             <!-- girl -->
+        </div>
+
+     </section>
+    <!-- about -->
+     <section id="about">
+        <div class="selection-head">
+            <h2 class="main-head">About Me</h2>
+            <span class="sub-head">Introduction</span>
+        </div>
+        <div class="about-body">
+            <div data-aos="fade-right" class="about-img">
+                <img class="img1" src="https://t4.ftcdn.net/jpg/01/33/06/65/360_F_133066505_zfBuvDSTycPFkXHU7iLtAh4QpnwZ3xFs.jpg" alt="">
+                <!-- <img class="img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6QtL5922WxMlQsEDFLt04O_Me6X_aAlondQ&s" alt=""> -->
+            </div>
+            <div class="about-content">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum magni rem eos officia reprehenderit. Similique, officia unde ex illum maxime pariatur neque ad perspiciatis ratione, sint repellendus optio commodi excepturi?</p>
+                <div class="informations">
+                    <div class="info-box">
+                        <i class="fa-solid fa-user"></i>
+                        <span>Ana Kite</span>
+                    </div>
+                    <div class="info-box">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>895621473</span>
+                    </div>
+                    <div class="info-box">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>anakite@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- skill -->
+     <section id="skills">
+        <div class="selection-head">
+            <h2 class="main-head">Skills</h2>
+            <span class="sub-head">My Skills</span>
+        </div>
+        <div class="skill-contents">
+            <div class="prorgress-bars">
+                <!-- html bar -->
+                <div class="bars">
+                    <h3 class="bar-head">HTML</h3>
+                    <span class="bar-percent">89%</span>
+                    <div class="base-bar"></div>
+                    <div  data-aos="zoom-in-right" class="base-bar html-bar"></div>
+                </div>
+                <!-- css bar -->
+                <div class="bars">
+                    <h3 class="bar-head">CSS</h3>
+                    <span class="bar-percent">80%</span>
+                    <div class="base-bar"></div>
+                    <div  data-aos="zoom-in-right" class="base-bar css-bar"></div>
+                </div>
+                <!-- js bar -->
+                <div class="bars">
+                    <h3 class="bar-head">JS</h3>
+                    <span class="bar-percent">94%</span>
+                    <div class="base-bar"></div>
+                    <div  data-aos="zoom-in-right" class="base-bar js-bar"></div>
+                </div>
+                <!-- React bar -->
+                <div class="bars">
+                    <h3 class="bar-head">REACT</h3>
+                    <span class="bar-percent">86%</span>
+                    <div class="base-bar"></div>
+                    <div  data-aos="zoom-in-right" class="base-bar react-bar"></div>
+                </div>
+
+
+            </div>
+            <div data-aos="fade-left" class="skill-img">
+                <img class="myskill" src="https://t4.ftcdn.net/jpg/01/31/96/99/360_F_131969925_4npM7jqii8Dlo76mRROdD0r285Oojc8d.jpg" alt="no image">
+            </div>
+        </div>
+        
+     </section>
+    <!-- Contact -->
+     <section id="contacts">
+        <div class="selection-head">
+            <h2 class="main-head">Contacts</h2>
+            <span class="sub-head">My Contacts</span>
+        </div>
+        <div class="icon-collections">
+            <!-- linked in -->
+            <div class="icon">
+                <a target="_blank" href=""><i class="fa-brands fa-linkedin-in brands"></i></a>
+            </div>
+            <!-- gethub -->
+            <div class="icon">
+                <a target="_blank" href=""><i class="fa-brands fa-github brands"></i></a>
+            </div>
+            <!-- twitter -->
+            <div class="icon">
+                <a target="_blank" href=""><i class="fa-brands fa-twitter brands"></i></a>
+            </div>
+            <!-- facebook -->
+            <div class="icon">
+                <a target="_blank" href=""><i class="fa-brands fa-facebook-f brands"></i></a>
+            </div>
+            <!-- instagram -->
+            <div class="icon">
+                <a target="_blank" href=""><i class="fa-brands fa-instagram brands"></i></a>
+            </div>
+            <!-- email -->
+            <div class="icon">
+                <a target="_blank" href=""><i class="fa-solid fa-envelope brands"></i></a>
+            </div>
+        </div>
+     </section>
+    <!-- footer -->
+     <footer>
+        <p id="copyright">&copy; My Portfolio is personal website - June 2024, All Rights Reserved to  &reg; Ana Kite </p>
+        <div class="icon up-arrow">
+            <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+        </div>
+     </footer>
+    
+    </div>
+
+    
+</body>
+<!-- aos cdn script -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!-- INITIALIZE AOS -->
+<script>
+    AOS.init();
+  </script>
+
+</html>
